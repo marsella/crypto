@@ -1,0 +1,12 @@
+These files include a cryptography toolkit, which has functions to
+implement the extended Euclidean algorithm (for calculating greatest common
+denominator) and Djikstra's algorithm (also gcd), modular inverses, modular
+exponentiation, and primality testing. There's also a (probably naive)
+implementation of the El Gamal cryptosystem which will encrypt and decrypt a
+message. 
+
+Gmp libraries are required.
+
+
+Algorithms based off those in Katz and Lindell's "Introduction to Modern 
+Cryptography".
